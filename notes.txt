@@ -1,0 +1,6 @@
+## add credentials
+git config user.name "Mona Lisa"
+git config --global user.email "YOUR_EMAIL"
+
+## vim
+wyjscie :q
