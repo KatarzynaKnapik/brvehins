@@ -1,0 +1,25 @@
+name: brvehins_h2o_polars_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python = 3.13.1
+  - numpy = 2.2.2
+  - pandas = 2.2.3
+  - pyarrow = 19.0.0
+  - polars = 1.21.0
+  - matplotlib = 3.10.0
+  - seaborn = 0.13.2
+  - scipy = 1.15.1
+  - scikit-learn = 1.6.1
+  - notebook = 7.3.2
+  - jupyterlab = 4.3.5
+  - pip = 25.0
+  - pathlib = 1.0.1
+  - ipykernel = 6.29.5
+  - openjdk = 23.0.2
+  - pip:
+    - future == 1.0.0
+    - tabulate == 0.9.0
+    - requests == 2.32.3
+    - h2o == 3.46.0.6
